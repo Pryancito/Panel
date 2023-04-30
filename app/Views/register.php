@@ -20,6 +20,11 @@ function togglePassword() {
     showPasswordButton.textContent = "Show";
   }
 }
+function getCaptcha ()
+{
+	var CaptchaImg = document.getElementById("captcha-img");
+	CaptchaImg.src = "/captcha";
+}
 </script>
 </head>
 <body>
@@ -29,11 +34,11 @@ function togglePassword() {
         <img width="190px" height="114px" src="/logo.png" />
     </div>
     <div class="data">
-        <form action="/user/login" method="post" enctype="multipart/form-data"><center>
+        <form action="/register" method="post" enctype="multipart/form-data"><center>
         <table><tr style="height: 50px;"><td>NickName:</td><td><input type="text" name="nickname" placeholder="Enter your nickname." /></td></tr>
-        <tr style="height: 50px;"><td>Password:</td><td><input type="password" id="password" name="password" placeholder="Enter your password." /><button type="button" class="small-btn" onclick="togglePassword()">Show</button></td></tr></table>
-        <br /><button class="btn">Enter to panel</button>
-        <br /><br /><a class="sub" href="/register">Sign up ( Registration ) here</a></center>
+        <tr style="height: 50px;"><td>Password:</td><td><input type="password" id="password" name="password" placeholder="Enter your password." /><button type="button" class="small-btn" onclick="togglePassword()">Show</button></td></tr>
+        <tr style="height: 50px;"><td><img id="captcha-img" src="/captcha" alt="Captcha" /></td><td><input type="text" name="captcha" placeholder="Enter left code" /><button type="button" class="small-btn" onclick="getCaptcha()">Regenerate</button></td></tr></table>
+	<br /><button class="btn">Register</button>
         </form>
     </div>
     </div>

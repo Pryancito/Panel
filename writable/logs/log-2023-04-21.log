@@ -1,0 +1,296 @@
+CRITICAL - 2023-04-21 17:20:39 --> Call to undefined function App\Controllers\create_captcha()
+in APPPATH/Controllers/Captcha.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 17:21:17 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 54.
+ 1 SYSTEMPATH/Images/Handlers/GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH/Config/Services.php(341): CodeIgniter\Images\Handlers\GDHandler->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::image()
+ 4 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 5 SYSTEMPATH/Config/Services.php(332): CodeIgniter\Config\BaseService::getSharedInstance()
+ 6 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 SYSTEMPATH/Common.php(1016): CodeIgniter\Config\BaseService::__callStatic()
+ 8 APPPATH/Helpers/captcha_helper.php(7): service()
+ 9 APPPATH/Controllers/Captcha.php(27): create_captcha()
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 17:21:44 --> Encrypter needs a starter key.
+in SYSTEMPATH/Encryption/Encryption.php on line 124.
+ 1 SYSTEMPATH/Encryption/Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH/Config/Services.php(242): CodeIgniter\Encryption\Encryption->initialize()
+ 3 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 SYSTEMPATH/Common.php(1016): CodeIgniter\Config\BaseService::__callStatic()
+ 5 APPPATH/Helpers/captcha_helper.php(8): service()
+ 6 APPPATH/Controllers/Captcha.php(27): create_captcha()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 17:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 17:24:10 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Helpers/captcha_helper.php(44): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 APPPATH/Controllers/Captcha.php(27): create_captcha()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 17:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 17:29:04 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Helpers/captcha_helper.php(39): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 APPPATH/Controllers/Captcha.php(27): create_captcha()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 17:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 17:29:26 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Helpers/captcha_helper.php(44): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 APPPATH/Controllers/Captcha.php(27): create_captcha()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 17:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 17:31:00 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Helpers/captcha_helper.php(44): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 APPPATH/Controllers/Captcha.php(27): create_captcha()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 17:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 17:41:22 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/GDHandler.php(422): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\GDHandler->_text()
+ 4 APPPATH/Helpers/captcha_helper.php(48): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Captcha.php(27): create_captcha()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 17:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 17:49:15 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Controllers/Captcha.php(31): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 18:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 18:30:14 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Controllers/Captcha.php(32): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 18:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 18:32:21 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Controllers/Captcha.php(32): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 18:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 18:43:54 --> File not found: "./uploads/template"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Controllers/Captcha.php(31): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 18:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 18:44:18 --> File not found: "./writable/uploads/template"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Controllers/Captcha.php(31): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 18:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 18:47:29 --> The supplied file is not a supported image type.
+in SYSTEMPATH/Images/Image.php on line 103.
+ 1 SYSTEMPATH/Images/Image.php(103): CodeIgniter\Images\Exceptions\ImageException::forFileNotSupported()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(150): CodeIgniter\Images\Image->getProperties()
+ 3 APPPATH/Controllers/Captcha.php(31): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 18:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 18:51:55 --> File not found: "/var/www/Panel/writable/uploads/captcha"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Controllers/Captcha.php(31): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 18:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 18:56:10 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Controllers/Captcha.php(30): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 18:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 18:58:50 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Controllers/Captcha.php(30): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 19:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 19:03:34 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Controllers/Captcha.php(31): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 19:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 19:05:04 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Controllers/Captcha.php(30): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 19:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 19:13:13 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Controllers/Captcha.php(33): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 21:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 21:20:50 --> imagecreate() expects exactly 2 arguments, 3 given
+in APPPATH/Controllers/Captcha.php on line 33.
+ 1 APPPATH/Controllers/Captcha.php(33): imagecreate()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 21:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 21:21:20 --> Call to undefined method GdImage::text()
+in APPPATH/Controllers/Captcha.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-21 21:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-21 21:25:09 --> You must specify a source image in your preferences.
+in SYSTEMPATH/Images/Handlers/BaseHandler.php on line 187.
+ 1 SYSTEMPATH/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(711): CodeIgniter\Images\Handlers\BaseHandler->image()
+ 3 APPPATH/Controllers/Captcha.php(33): CodeIgniter\Images\Handlers\BaseHandler->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 22:34:37 --> Call to undefined function App\Controllers\generateCaptchaText()
+in APPPATH/Controllers/Captcha.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->captchaGD()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 22:35:24 --> Undefined variable $line_color
+in APPPATH/Controllers/Captcha.php on line 66.
+ 1 APPPATH/Controllers/Captcha.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->captchaGD()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 22:36:33 --> Undefined variable $line_color
+in APPPATH/Controllers/Captcha.php on line 64.
+ 1 APPPATH/Controllers/Captcha.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->captchaGD()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 22:37:48 --> Undefined variable $line_color
+in APPPATH/Controllers/Captcha.php on line 64.
+ 1 APPPATH/Controllers/Captcha.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->captchaGD()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 22:38:07 --> Undefined variable $line_color
+in APPPATH/Controllers/Captcha.php on line 64.
+ 1 APPPATH/Controllers/Captcha.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->captchaGD()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 22:40:10 --> Undefined variable $line_color
+in APPPATH/Controllers/Captcha.php on line 64.
+ 1 APPPATH/Controllers/Captcha.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->captchaGD()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 22:40:17 --> Undefined variable $line_color
+in APPPATH/Controllers/Captcha.php on line 64.
+ 1 APPPATH/Controllers/Captcha.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->captchaGD()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 22:40:47 --> Undefined variable $line_color
+in APPPATH/Controllers/Captcha.php on line 64.
+ 1 APPPATH/Controllers/Captcha.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->captchaGD()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 22:40:58 --> Undefined variable $line_color
+in APPPATH/Controllers/Captcha.php on line 64.
+ 1 APPPATH/Controllers/Captcha.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Captcha->captchaGD()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

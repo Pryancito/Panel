@@ -1,0 +1,115 @@
+CRITICAL - 2023-04-17 22:51:19 --> Undefined variable $errors
+in APPPATH/Views/upload.php on line 11.
+ 1 APPPATH/Views/upload.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/Panel/app/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Up.php(35): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Up->upload()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 22:52:23 --> foreach() argument must be of type array|object, string given
+in APPPATH/Views/upload.php on line 11.
+ 1 APPPATH/Views/upload.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/Panel/app/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Up.php(35): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Up->upload()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 22:53:09 --> foreach() argument must be of type array|object, string given
+in APPPATH/Views/upload.php on line 11.
+ 1 APPPATH/Views/upload.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/Panel/app/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Up.php(35): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Up->upload()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 22:55:34 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH/Views/upload.php on line 13.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Up.php(35): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Up->upload()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 22:56:46 --> syntax error, unexpected token "else"
+in APPPATH/Views/upload.php on line 13.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Up.php(35): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Up->upload()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 22:58:35 --> Undefined variable $fileinfo
+in APPPATH/Views/upload.php on line 13.
+ 1 APPPATH/Views/upload.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/Panel/app/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Up.php(35): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Up->upload()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 22:59:03 --> Undefined variable $fileinfo
+in APPPATH/Views/upload.php on line 13.
+ 1 APPPATH/Views/upload.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/Panel/app/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Up.php(35): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Up->upload()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 23:01:15 --> Cache unable to write to "/var/www/Panel/writable/cache/".
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 62.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(62): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(60): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(115): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(110): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Common.php(73): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/CodeIgniter.php(696): cache()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->displayCache()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 23:07:34 --> The uploaded file has already been moved.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 133.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH/Controllers/Up.php(39): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Up->upload()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 23:09:41 --> Undefined variable $data
+in APPPATH/Controllers/Up.php on line 35.
+ 1 APPPATH/Controllers/Up.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Up->upload()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 23:12:29 --> CodeIgniter\HTTP\IncomingRequest::__construct(): Argument #2 ($uri) must be of type ?CodeIgniter\HTTP\URI, string given, called in /var/www/Panel/app/Controllers/Up.php on line 37
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 151.
+ 1 APPPATH/Controllers/Up.php(37): CodeIgniter\HTTP\IncomingRequest->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Up->upload()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 23:16:28 --> Undefined variable $file
+in APPPATH/Controllers/Up.php on line 38.
+ 1 APPPATH/Controllers/Up.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Up->upload()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
